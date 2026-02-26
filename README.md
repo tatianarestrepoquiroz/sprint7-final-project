@@ -12,20 +12,26 @@ Se buscó identificar:
 
 ## 📂 Datasets Utilizados
 
-El proyecto trabaja con los siguientes datasets:
+El proyecto se desarrolló utilizando tres datasets:
 
-### 1️⃣ `users`
-Contiene información demográfica de los usuarios:
-- `user_id`
-- `age`
-- `city`
-- `reg_date`
+1️⃣ plans.csv
 
-### 2️⃣ `usage`
-Contiene información de uso del servicio:
-- `user_id`
-- `date`
-- `type` (call o text)
+Contiene información sobre los planes actuales ofrecidos por la compañía:
+plan_name, monthly_price, minutes_included, gb_included, messages_included, cost_per_extra_minute, cost_per_extra_gb,
+cost_per_extra_message. 
+Este dataset permite analizar las condiciones comerciales de cada plan.
+
+2️⃣ users.csv
+
+Contiene información demográfica y contractual de los clientes:
+user_id, age, city, reg_date, plan, churn
+Se utilizó para analizar características de los usuarios, detectar inconsistencias y revisar calidad de datos.
+
+3️⃣ usage.csv
+
+Contiene el detalle del uso real de los servicios:
+user_id, date, type (call o text), Variables asociadas al consumo
+Este dataset permite analizar el comportamiento real de consumo de los clientes.
 
 ---
 
