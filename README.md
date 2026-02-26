@@ -61,23 +61,9 @@ Se realizaron las siguientes acciones:
 
 ## ▶️ Cómo Ejecutar el Notebook
 
-Puedes ejecutar el análisis de las siguientes maneras:
+Puedes ejecutar el análisis directamente en Google Colab haciendo clic en el siguiente botón:
 
-### Opción 1: Google Colab
-1. Ir a https://colab.research.google.com/
-2. Subir el archivo `.ipynb`
-3. Subir los datasets necesarios
-4. Ejecutar las celdas en orden
-
-### Opción 2: Localmente
-1. Clonar el repositorio
-2. Instalar dependencias necesarias (pandas, numpy, matplotlib si aplica)
-3. Ejecutar:
-
-```bash
-jupyter notebook
-
-Abrir el archivo .ipynb y ejecutar las celdas en orden.
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tatianarestrepoquiroz/sprint7-final-project/blob/main/S7%20Version-Estudiante-Project-ConnectaTel.ipynb)
 
 🔁 Guía de Reproducción
 
